@@ -57,12 +57,12 @@
                     <p class="mob-hide">Круглосуточная доставка цветов по<br>Иркутску</p>
                     <div class="row">
                         <div class="col-md-5 col-6 download">
-                            <a href="https://play.google.com/store/apps/details?id=com.u_grp.android.marketplace.florist" class="download__button"><img src="img/gplay.svg" alt=""></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.u_grp.android.marketplace.florist" class="download__link">Нажми, чтобы скачать на Android</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.u_grp.android.marketplace.florist" class="download__button down-pm"><img src="img/gplay.svg" alt=""></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.u_grp.android.marketplace.florist" class="download__link down-pm">Нажми, чтобы скачать на Android</a>
                         </div>
                         <div class="col-md-5 col-6 download">
-                            <a href="https://itunes.apple.com/ru/app/florist.-dostavka-cvetov/id1157420179?l=ru&ls=1&mt=8" class="download__button"><img src="img/appStore.svg" alt=""></a>
-                            <a href="https://itunes.apple.com/ru/app/florist.-dostavka-cvetov/id1157420179?l=ru&ls=1&mt=8" class="download__link">Нажми, чтобы скачать на iOS</a>
+                            <a href="https://itunes.apple.com/ru/app/florist.-dostavka-cvetov/id1157420179?l=ru&ls=1&mt=8" class="download__button down-ios"><img src="img/appStore.svg" alt=""></a>
+                            <a href="https://itunes.apple.com/ru/app/florist.-dostavka-cvetov/id1157420179?l=ru&ls=1&mt=8" class="download__link down-ios">Нажми, чтобы скачать на iOS</a>
                         </div>
                         <div class="col-12 desc-hide">
                             <p>Круглосуточная доставка цветов по<br>Иркутску</p>
@@ -72,10 +72,10 @@
             </div>
         </div>
         <div class="container pos-r">
-            <a href="https://play.google.com/store/apps/details?id=com.u_grp.android.marketplace.florist" class="phone-android">
+            <a href="https://play.google.com/store/apps/details?id=com.u_grp.android.marketplace.florist" class="phone-android down-pm">
                 <img src="img/vedroid.png" alt="">
             </a>
-            <a href="https://itunes.apple.com/ru/app/florist.-dostavka-cvetov/id1157420179?l=ru&ls=1&mt=8" class="phone-ios">
+            <a href="https://itunes.apple.com/ru/app/florist.-dostavka-cvetov/id1157420179?l=ru&ls=1&mt=8" class="phone-ios down-ios">
                 <img src="img/iphone.png" alt="">
             </a>
             <div class="pos-a flower">
@@ -100,6 +100,12 @@
                 var zaparalaxim = new Parallax(elem);
             }
         );
+        $('.down-ios').click(function(){
+            yaCounter50226601.reachGoal('appstore');
+        });
+        $('.down-pm').click(function(){
+            yaCounter50226601.reachGoal('googleplay');
+        });
     </script>
 </body>
 </html>
